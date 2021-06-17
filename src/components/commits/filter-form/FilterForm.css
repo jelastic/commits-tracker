@@ -1,0 +1,7 @@
+.filter-form-modules {
+    max-width: 23rem;
+}
+
+.commits-filter-form .p-panel-content {
+    padding-bottom: 0;
+}

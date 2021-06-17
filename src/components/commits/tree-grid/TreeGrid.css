@@ -1,0 +1,68 @@
+.commit-tree.p-treetable .p-treetable-tbody > tr > td a,
+.commit-tree.p-treetable .p-treetable-tbody > tr > td span,
+.commit-tree.p-treetable .p-treetable-tbody > tr > td img {
+    vertical-align: middle;
+}
+
+.commit-tree.p-treetable a {
+    color: #0052cc; /* todo: move to variables */
+    text-decoration: none;
+}
+
+.commit-tree.p-treetable a:hover {
+    text-decoration: underline;
+}
+
+.commit-tree.p-treetable .p-treetable-tbody > tr > td {
+    padding: 0.4rem 0.4rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.commit-tree.p-treetable .p-treetable-thead > tr > th {
+    padding: 0.7rem 0.7rem;
+    border-width: 0 1px 1px 0;
+}
+
+.commit-tree .module-row button.p-button-rounded {
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+    /*vertical-align: initial;*/
+    overflow: hidden;
+    position: relative;
+    margin-left: 0.5rem;
+}
+
+.commit-tree.p-treetable .p-treetable-tbody > tr > td .module-row span.pi-external-link {
+    padding-left: 2px;
+    vertical-align: initial;
+}
+
+.commit-tree tr:hover > td .module-row button {
+    display: inherit;
+}
+
+.commit-hash {
+    display: inline-block;
+/*     color: #666; */
+    /*font-size: 12px;*/
+    line-height: 20px;
+    padding: 0 7px;
+    font-weight: 400;
+    margin-right: 20px;
+    width: 80px;
+    text-align: center;
+}
+
+/*.commit-hash:hover {
+    font-weight: bold;
+}*/
+
+.commit-title {
+    font-weight: bold;
+}
+

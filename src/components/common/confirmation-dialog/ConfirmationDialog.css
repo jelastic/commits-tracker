@@ -1,0 +1,5 @@
+.confirmation-dialog .confirmation-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
